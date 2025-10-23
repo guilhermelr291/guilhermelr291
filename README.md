@@ -29,14 +29,9 @@ In addition, I have over **3 years of experience in the IT market**, including a
 
 ## 🤝 Let's Connect
 
-<p align="left">
-  <a href="https://www.linkedin.com/in/guilherme-resende-78b258258/" target="_blank">
-    <img src="https://img.shields.io/badge/-LinkedIn-0A66C2?logo=linkedin&logoColor=white" height="28"/>
-  </a>
-  <a href="mailto:guilhermelr291dev@gmail.com">
-    <img src="https://img.shields.io/badge/-Email-D14836?logo=gmail&logoColor=white" height="28"/>
-  </a>
-</p>
+🔗 LinkedIn: [https://www.linkedin.com/in/guilherme-resende-78b258258/]
+
+📧 E-mail: guilhermelr291dev@gmail.com
 
 ---
 
