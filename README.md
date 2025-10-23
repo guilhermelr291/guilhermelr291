@@ -1,7 +1,7 @@
 <h1 align="center">👋 Hey there! I'm <strong>Guilherme Resende</strong></h1>
 
 <p align="center">
-  💻 <strong>Full Stack Developer</strong> | 🚀 Passionate about building scalable and efficient web applications
+  💻 <strong>Full Stack Developer</strong> | building scalable and efficient web applications
 </p>
 
 ---
