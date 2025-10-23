@@ -29,7 +29,7 @@ In addition, I have over **3 years of experience in the IT market**, including a
 
 ## 🤝 Let's Connect
 
-🔗 LinkedIn: [https://www.linkedin.com/in/guilherme-resende-78b258258/]
+🔗 LinkedIn: https://www.linkedin.com/in/guilherme-resende-78b258258/
 
 📧 E-mail: guilhermelr291dev@gmail.com
 
