@@ -86,8 +86,3 @@ In addition, I have over **3 years of experience in the IT market**, including a
 
 ---
 
-## 📊 GitHub Stats
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=guilhermelr&show_icons=true&theme=radical" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=guilhermelr&layout=compact&theme=radical" height="165"/>
-</p>
