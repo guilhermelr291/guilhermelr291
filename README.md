@@ -23,7 +23,7 @@ In addition, I have over **3 years of experience in the IT market**, including a
 
 ## 🎓 Education
 
-🎓 **Information Systems** — CEFET/RJ
+🎓 **Information Systems** — Celso Suckow da Fonseca Federal Center for Technological Education (CEFET-RJ)
 
 ---
 
