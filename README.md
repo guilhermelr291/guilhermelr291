@@ -1,146 +1,148 @@
-\documentclass[10pt,a4paper]{article}
-\usepackage[utf8]{inputenc}
-\usepackage[margin=0.5in]{geometry}
-\usepackage{enumitem}
-\usepackage{titlesec}
-\usepackage{xcolor}
-\usepackage{hyperref}
-\usepackage{fontawesome5}
-\usepackage{tabularx}
-\usepackage{array}
+<h1 align="center">👋 Hey there! I'm <strong>Guilherme Lopes Resende</strong></h1>
+<p align="center"> 🤖 <strong>AI Engineer</strong> | RAG | LLM Systems | LangChain | LangGraph | Python | Production AI Workflows </p>
+---
 
-\definecolor{headercolor}{RGB}{51, 51, 51}
-\definecolor{subtitlecolor}{RGB}{102, 102, 102}
-\definecolor{accentcolor}{RGB}{0, 102, 204}
-\definecolor{lightgray}{RGB}{245, 245, 245}
+## 👨‍💻 About Me
 
-\hypersetup{colorlinks=true, linkcolor=accentcolor, urlcolor=accentcolor}
+AI Engineer building **production-grade LLM-powered workflows** and **RAG systems from zero to production**.  
 
-\pagestyle{empty}
-\setlength{\parindent}{0pt}
-\setlist[itemize]{leftmargin=*, nosep, itemsep=1.2pt, label=\textbullet}
+Hands-on experience with **Agentic pipeline design**, retrieval engineering, prompt engineering, evaluation-oriented iteration, **AI framework migrations** and AI-enabled business workflows connected to real operational data.  
 
-\titleformat{\section}{\large\bfseries\centering}{}{0em}{}[\titlerule]
-\titlespacing*{\section}{0pt}{7pt}{4pt}
+Strong focus on **observability**, monitoring, incident diagnosis, and **cost-aware AI implementation**, leveraging techniques such as fine-tuned small models, optimized retrieval pipelines and lightweight LLM filters.  
 
-\newcommand{\experienceheader}[4]{
-    \textbf{\color{subtitlecolor}#1} \hfill #2\\
-    \textbf{#3} \hfill \textit{#4}\\
-}
+Solid full-stack engineering background in **Python**, **Node.js**, **TypeScript**, **React**, and modern architectures (Clean Architecture, DDD), providing strong ownership across the entire product stack when needed.  
 
-\newcommand{\achievementbox}[3]{
-    \begin{minipage}[t]{0.3\textwidth}
-        \centering
-        \colorbox{lightgray}{\makebox[0.9\textwidth][c]{
-            \begin{minipage}{0.85\textwidth}
-                \centering
-                \vspace{3pt}
-                #1\ \textbf{\footnotesize #2}\\[1pt]
-                {\footnotesize #3}
-                \vspace{3pt}
-            \end{minipage}
-        }}
-    \end{minipage}
-}
-
-\begin{document}
-
-\begin{center}
-    {\LARGE\bfseries\color{headercolor} Guilherme Lopes Resende}\\[3pt]
-    {\large\color{subtitlecolor} AI Engineer | RAG | LLM Systems | LangChain | LangGraph | Python | Production AI Workflows}\\[4pt]
-    {\footnotesize
-    (22) 98101-3061 \quad • \quad guilhermelr291dev@gmail.com \quad • \quad
-    \href{https://github.com/guilhermelr291}{GitHub} \quad • \quad
-    \href{https://linkedin.com/in/guilherme-resende-78b258258}{LinkedIn} \quad • \quad
-    Nova Friburgo, Brazil}
-\end{center}
-
-\section{Professional Summary}
-{\footnotesize
-AI Engineer building \textbf{production-grade LLM-powered workflows} and \textbf{RAG systems from zero to production}.
-Hands-on experience with \textbf{agentic pipeline design}, retrieval engineering, prompt engineering, evaluation-oriented iteration, \textbf{AI framework migrations} and AI-enabled business workflows connected to real operational data.
-Strong focus on \textbf{observability}, monitoring, incident diagnosis, and
-\textbf{cost-aware AI implementation}, leveraging techniques such as fine-tuned
-small models, optimized retrieval pipelines and lightweight LLM filters.
-Solid full-stack engineering background in \textbf{Python}, \textbf{Node.js}, \textbf{TypeScript}, \textbf{React}, and modern architectures (Clean Architecture, DDD), providing strong ownership across the entire product stack when needed.
 Experienced leading squads, making architecture decisions, and working cross-functionally with clients and product owners to deliver reliable, production-grade systems.
-}
 
-\section{Core Skills}
-\vspace{2pt}
-\noindent{\footnotesize
-\textbf{AI / RAG / LLM Systems:} LangChain, LangGraph, agentic pipeline design, end-to-end RAG, tool-based flows, reranking, prompt engineering, evaluation-oriented iteration, cost-aware implementation\\
-\textbf{Observability / AI Ops:} monitoring, data quality checks, incident diagnosis, observability for agentic workflows, operational feedback loops, answer reliability improvement\\
-\textbf{Backend / APIs:} Python, Node.js (Express, Fastify), FastAPI, REST APIs, JWT, OAuth, API versioning, webhooks, TypeScript, JavaScript\\
-\textbf{Architecture:} Clean Architecture, DDD, MVC, Hexagonal Architecture, SOLID\\
-\textbf{Databases:} PostgreSQL, MySQL, MongoDB\\
-\textbf{Infrastructure / DevOps:} Docker, CI/CD with GitHub Actions\\
-\textbf{Frontend:} React, Next.js, Tailwind CSS, TanStack Query, Zustand\\
-\textbf{Other:} Automated testing (Vitest, Jest), RabbitMQ, Selenium and Playwright (RPA)
-}
+---
 
-\section{Key Achievements}
-\vspace{2pt}
-\noindent
-\achievementbox{\faRobot}{RAG in Production}{Built end-to-end \textbf{production RAG
-solutions} mainly in the \textbf{legal field}, combining \textbf{RAG} for unstructured
-documents with \textbf{tool-based approaches} for structured data sources.}
-\hfill
-\achievementbox{\faExchangeAlt}{Stack Migrations}{Identified inadequate technologies holding the team back and led \textbf{framework migrations} for a more deterministic, parallelism-friendly approach suited to production needs.}
-\hfill
-\achievementbox{\faCloud}{Scale \& Efficiency}{Reduced AI costs by up to \textbf{30\%} using \textbf{fine-tuned small models} per task; designed retrieval strategies balancing \textbf{precision, recall, and cost},
-combining multiple techniques to keep quality high without relying on large models.}
+## 🧠 Core Skills
 
-\section{Experience}
-\vspace{2pt}
-\experienceheader{Rachel AI}{London (Remote)}{Full Stack Developer / AI Engineer}{Nov 2025 -- Present}
-\textbf{\footnotesize Full-time}
-\begin{itemize}
-    \item {\footnotesize Designed, maintained, and evolved the entire \textbf{agentic pipeline} with a precise \textbf{RAG} and \textbf{tool-based flow} capable of handling both structured and unstructured documents in the \textbf{legal field}.}
-    \item {\footnotesize Led the \textbf{migration of the full AI framework} to a more deterministic, parallelism-friendly, and production-suitable approach, replacing an inadequate prior stack that was holding the team back.}
-    \item {\footnotesize Made critical \textbf{architecture decisions} to keep the MVP lean, including infrastructure delegation and framework choices aligned with long-term maintainability.}
-    \item {\footnotesize Drove continuous improvement in the \textbf{RAG workflow} through different retrieval strategies, model evaluations, and \textbf{human and AI feedback} loops.}
-    \item {\footnotesize Reduced AI costs by up to \textbf{30\%} by replacing large general-purpose models with \textbf{smaller specialized models} fine-tuned for specific tasks.}
-    \item {\footnotesize Designed \textbf{retrieval strategies} balancing precision, recall, and cost, combining multiple complementary techniques to maintain answer quality without relying on expensive models.}
-    \item {\footnotesize Implemented \textbf{monitoring and data quality checks} for both the agentic workflow and the broader application.}
-    \item {\footnotesize Continuously refined prompts, retrieval behavior, and failure handling based on operational feedback to increase \textbf{answer reliability in production}.}
-\end{itemize}
+**AI / RAG / LLM Systems:** LangChain, LangGraph, Agentic pipeline design, end-to-end RAG, tool-based flows, reranking, prompt engineering, evaluation-oriented iteration, cost-aware implementation  
 
-\vspace{2pt}
-\experienceheader{Rime Tecnologia}{S\~{a}o Paulo (Remote)}{Full Stack Web Developer}{Nov 2024 -- Nov 2025}
-\textbf{\footnotesize Full-time}
-\begin{itemize}
-    \item {\footnotesize Delivered \textbf{3+ complete products from scratch} --- frontend, backend, infrastructure, and deployment --- in a fast-paced software house environment with multiple simultaneous demands.}
-    \item {\footnotesize Led \textbf{architecture decisions} (MVC, Clean Architecture, DDD) and code standardization across Node.js, React, and Python projects.}
-    \item {\footnotesize Maintained full \textbf{VPS infrastructure} with Docker, Nginx, and CI/CD via GitHub Actions; acted as \textbf{technical reference} and led small development squads.}
-    \item {\footnotesize Worked directly with clients and POs for requirements gathering, technical alignment, and roadmap definition.}
-\end{itemize}
+**Observability / AI Ops:** monitoring, data quality checks, incident diagnosis, observability for agentic workflows, operational feedback loops, answer reliability improvement  
 
-\vspace{2pt}
-\experienceheader{Go Live Tech}{Niter\'{o}i (Remote)}{RPA Consultant}{Dec 2022 -- Nov 2024}
-\textbf{\footnotesize Full-time}
-\begin{itemize}
-    \item {\footnotesize For approximately one year, was the \textbf{sole developer} working on a large and complex project for the company's \textbf{first international client}.}
-    \item {\footnotesize Responsible for development and direct communication with the client, identifying needs, making corrections and adaptations when necessary, and implementing new features.}
-    \item {\footnotesize Responsible for the support of one of the company's most scaled and important automations.}
-    \item {\footnotesize Received \textbf{internal performance awards}, voted by the team (listed on LinkedIn).}
-\end{itemize}
+**Backend / APIs:** Python, Node.js (Express, Fastify), FastAPI, REST APIs, JWT, OAuth, API versioning, webhooks, TypeScript, JavaScript  
 
-\section{Activities}
-\vspace{2pt}
-\noindent{\footnotesize
-Participant in \textbf{BASE}, a mentoring group by Yuri Pereira, founder of BorderlessCoding, focused on promoting developer connections and developing hard and soft skills.
-}
+**Architecture:** Clean Architecture, DDD, MVC, Hexagonal Architecture, SOLID  
 
-\section{Education}
-\vspace{2pt}
-\noindent\textbf{\footnotesize CEFET/RJ --- Federal Center for Technological Education, Nova Friburgo} \hfill {\footnotesize Graduated Sep 2025}\\
-{\footnotesize B.S. in Information Systems}
+**Databases:** PostgreSQL, MySQL, MongoDB  
 
-\section{Languages}
-\vspace{2pt}
-\begin{center}
-{\footnotesize \textbf{Portuguese} --- Native \quad\quad \textbf{English} --- C1 Advanced \quad (\href{https://cert.efset.org/kXqBK2}{EF SET Certificate})}
-\end{center}
+**Infrastructure / DevOps:** Docker, CI/CD with GitHub Actions  
 
-\end{document}
+**Frontend:** React, Next.js, Tailwind CSS, TanStack Query, Zustand  
+
+**Other:** Automated testing (Vitest, Jest), RabbitMQ, Selenium and Playwright (RPA)
+
+---
+
+## 🏆 Key Achievements
+
+- **🧬 RAG in Production**  
+  Built end-to-end **production RAG solutions** mainly in the **legal field**, combining **RAG** for unstructured documents with **tool-based approaches** for structured data sources.
+
+- **🔄 Stack Migrations**  
+  Identified inadequate technologies holding the team back and led **framework migrations** for a more deterministic, parallelism-friendly approach suited to production needs.
+
+- **☁️ Scale & Efficiency**  
+  Reduced AI costs by up to **30%** using **fine-tuned small models** per task; Designed retrieval strategies balancing **precision, recall, and cost**, combining multiple techniques to keep quality high without relying on large models.
+
+---
+
+## 💼 Professional Experience
+
+**Rachel AI** — *London (Remote)*  
+**Full Stack Developer / AI Engineer**  
+*Nov 2025 – Present* (Full-time)  
+- Designed, maintained, and evolved the entire **agentic pipeline** with a precise **RAG** and **tool-based flow** capable of handling both structured and unstructured documents in the **legal field**.  
+- Led the **migration of the full AI framework** to a more deterministic, parallelism-friendly, and production-suitable approach.  
+- Made critical **architecture decisions** to keep the MVP lean while ensuring long-term maintainability.  
+- Drove continuous improvement in the **RAG workflow** through different retrieval strategies, model evaluations, and **human and AI feedback** loops.  
+- Reduced AI costs by up to **30%** by replacing large general-purpose models with **smaller specialized models** fine-tuned for specific tasks.  
+- Implemented **monitoring and data quality checks** for both the agentic workflow and the broader application.
+
+**Rime Tecnologia** — *São Paulo (Remote)*  
+**Full Stack Web Developer**  
+*Nov 2024 – Nov 2025* (Full-time)  
+- Delivered **3+ complete products from scratch** (frontend, backend, infrastructure, and deployment) in a fast-paced software house environment.  
+- Led **architecture decisions** (MVC, Clean Architecture, DDD) and code standardization across Node.js, React, and Python projects.  
+- Maintained full **VPS infrastructure** with Docker, Nginx, and CI/CD via GitHub Actions; acted as **technical reference** and led small development squads.  
+- Worked directly with clients and Product Owners for requirements gathering, technical alignment, and roadmap definition.
+
+**Go Live Tech** — *Niterói (Remote)*  
+**RPA Consultant**  
+*Dec 2022 – Nov 2024* (Full-time)  
+- Sole developer for approximately one year on a large and complex project for the company’s **first international client**.  
+- Responsible for development, direct client communication, needs identification, corrections, and new feature implementation.  
+- Provided support for one of the company’s most scaled and important automations.  
+- Received **internal performance awards**, voted by the team.
+
+---
+
+## 🎓 Education
+
+**B.S. in Information Systems** — CEFET/RJ (Federal Center for Technological Education, Nova Friburgo)  
+*Graduated September 2025*
+
+---
+
+## 🌍 Languages
+
+**Portuguese** — Native  
+**English** — C1 Advanced [](https://cert.efset.org/kXqBK2)
+
+---
+
+## 🤝 Let's Connect
+
+🔗 **LinkedIn:** [linkedin.com/in/guilherme-resende-78b258258](https://www.linkedin.com/in/guilherme-resende-78b258258/)  
+📧 **E-mail:** guilhermelr291dev@gmail.com  
+📱 **Phone:** (22) 98101-3061  
+🔗 **GitHub:** [github.com/guilhermelr291](https://github.com/guilhermelr291)  
+📍 **Location:** Nova Friburgo, Brazil
+
+---
+
+## 🛠️ Technologies & Tools
+
+### 💻 Languages & Frameworks
+<p align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" height="40" alt="Python"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="40" height="40" alt="TypeScript"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40" height="40" alt="JavaScript"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="40" height="40" alt="Node.js"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" width="40" height="40" alt="FastAPI"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" width="40" height="40" alt="Express"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" width="40" height="40" alt="Next.js"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="40" height="40" alt="React"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nestjs/nestjs-original.svg" width="40" height="40" alt="NestJS"/>
+</p>
+
+### ☁️ Databases & Cloud
+<p align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="40" height="40" alt="PostgreSQL"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="40" height="40" alt="MongoDB"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" width="40" height="40" alt="AWS"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="40" height="40" alt="Docker"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vercel/vercel-original.svg" width="40" height="40" alt="Vercel"/>
+</p>
+
+### 🧪 Dev & Testing
+<p align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40" height="40" alt="Git"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" width="40" height="40" alt="GitHub"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" width="40" height="40" alt="Jest"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vitest/vitest-original.svg" width="40" height="40" alt="Vitest"/>
+</p>
+
+### ⚙️ Infra & DevOps + AI Tools
+<p align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="40" height="40" alt="Linux"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="40" height="40" alt="Docker"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" width="40" height="40" alt="Tailwind CSS"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/selenium/selenium-original.svg" width="40" height="40" alt="Selenium"/>
+</p>
+
+---
+
+*Always open to new opportunities in AI Engineering, RAG systems, and production LLM workflows.*
